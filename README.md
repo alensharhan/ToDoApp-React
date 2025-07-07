@@ -43,7 +43,7 @@
 ## 🔧 Getting Started
 
 ```bash
-git clone https://github.com/your-username/react-todo-app.git
+git clone https://github.com/alensharhan/ToDoApp-React.git
 cd react-todo-app
 npm install
 npm run dev
