@@ -1,12 +1,49 @@
-# React + Vite
+<h1 align="center">📝 React ToDo App</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  A beautifully minimal ToDo application built with <strong>React</strong> and <strong>Vite</strong>, styled using modern <strong>CSS Modules</strong>. Designed for speed, focus, and simplicity.
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?style=flat-square&logo=react" />
+  <img src="https://img.shields.io/badge/Vite-fast-purple?style=flat-square&logo=vite" />
+  <img src="https://img.shields.io/badge/Live-Demo-green?style=flat-square&logo=vercel" />
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ **Fast**: Powered by Vite’s lightning-fast bundler.
+- 🎯 **Focused**: Clean, distraction-free task management.
+- ✅ **Functional**: Add, complete (strike-through), and delete tasks.
+- 🎨 **Styled**: Clean UI using CSS Modules — no global leaks.
+- 🧠 **Beginner-Friendly**: Perfect starter project to learn React basics.
+
+---
+
+## 🧪 Preview
+
+
+📸 *(Add screenshot or screen recording here)*
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool       | Purpose                  |
+|------------|--------------------------|
+| ⚛️ React   | UI Library               |
+| ⚡ Vite     | Fast Dev Environment     |
+| 🎨 CSS Modules | Scoped Styling         |
+| 🎯 React Icons | Iconography             |
+
+---
+
+## 🔧 Getting Started
+
+```bash
+git clone https://github.com/your-username/react-todo-app.git
+cd react-todo-app
+npm install
+npm run dev
