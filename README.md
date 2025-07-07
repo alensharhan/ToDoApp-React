@@ -25,7 +25,7 @@
 ## 🧪 Preview
 
 
-📸 *(Add screenshot or screen recording here)*
+📸 *(Readme-pic/preview-pic.png)*
 
 ---
 
