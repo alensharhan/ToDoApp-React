@@ -1,0 +1,130 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f3f4f6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* Main Container */
+.container {
+  background-color: #fff;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: #2d3748;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+/* Input Area */
+.input-area {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 12px 15px;
+  font-size: 16px;
+  border: 1px solid #cbd5e0;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+
+.input-area input:focus {
+  outline: none;
+  border-color: #3182ce;
+}
+
+.input-area button {
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-area button:hover {
+  background-color: #2563eb;
+}
+
+/* Task List */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;  /* ✅ FIX vertical misalignment */
+  background: #f9fbf9;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+  gap: 10px;
+}
+
+.task-item:hover {
+  background: #edf2f7;
+}
+
+.task-item input[type="checkbox"] {
+  transform: scale(1.3);
+  cursor: pointer;
+  margin-right: 8px;
+  vertical-align: middle; 
+  margin-top: 4px;
+  accent-color: rgb(0, 160, 0);
+}
+
+.task-item span {
+  flex: 1;
+  font-size: 17px;
+  color: #2e482d;
+  display: flex;             /* ✅ make text a flex container */
+  align-items: center;       /* ✅ align text vertically */
+  line-height: 1.2;
+}
+
+.task-item span.completed {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;      /* makes the line bolder */
+  text-decoration-color: #a0aec0;      /* optional: grey line color */
+  text-decoration-offset: 2px;         /* ✅ moves line down slightly */
+  color: #a0aec0;
+}
+
+
+.task-item button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #e53e3e;
+  transition: transform 0.2s;
+  margin-top: 4px;
+}
+
+.task-item button:hover {
+  transform: scale(1.2);
+}
