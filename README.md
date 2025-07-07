@@ -22,10 +22,10 @@
 
 ---
 
-## 🧪 Preview
+## 🖼️ Preview
 
+![App Screenshot](./Readme-pic/preview-pic.png)
 
-📸 *(Readme-pic/preview-pic.png)*
 
 ---
 
