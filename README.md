@@ -22,6 +22,12 @@
 
 ---
 
+## 🌍 Live Demo
+
+[👉 View Live Project](https://todo-snap.netlify.app)
+
+---
+
 ## 🖼️ Preview
 
 ![App Screenshot](./Readme-pic/preview-pic.png)
